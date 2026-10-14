@@ -1,0 +1,37 @@
+# MATLAB temporary and autosave files
+*.asv
+*.m~
+*.autosave
+
+# MATLAB generated cache and code-generation folders
+slprj/
+codegen/
+*_ert_rtw/
+*_grt_rtw/
+
+# Simulink simulation cache and generated artifacts
+*.slxc
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python cache (if Python scripts are added later)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build and temporary files
+build/
+temp/
+tmp/
+
+# Local environment and secrets
+.env
+.env.*
+
+# Note: Keep actual project files, including .m, .slx, .stl and .ino files.
